@@ -1,0 +1,4 @@
+I created the model and trained it using keras module in python.
+I used pretrained weights from InceptionV3 as the starting weights of the model.
+I used the output of the layer 'mixed5' to create a new model and trained it.
+I used EarlyStopping anf ModelCheckpoint to select the best model from training.
